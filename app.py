@@ -174,12 +174,6 @@ def load_startup_details(name):
         except:
             pass
 
-
-
-
-
-
-    
 if option == 'Overall Analysis':
     try:
         st.title('Overall Analysis')
@@ -201,7 +195,3 @@ else:
             load_investor_details(name)
     except:
         pass
-
-# df.loc[df[df['Startup'] == 'https://www.wealthbucket.in/'].index.values,'Startup'] = ['Wealth Bucket']
-# df.to_csv('n_startup.csv')
-# print(df.loc[df[df['Startup'] == 'https://www.wealthbucket.in/'].index.values,'Startup'])
