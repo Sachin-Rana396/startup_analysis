@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(layout='wide',page_title='Startup Funding')
 
-df = pd.read_csv('Stat6.csv')
+df = pd.read_csv('startup_funding.csv')
 df = df.set_index('Sr No')
 # st.dataframe(df)
 df['Date'] = pd.to_datetime(df.Date,errors='coerce')
